@@ -11,6 +11,7 @@
     "@strapi/design-system": "^1.6.3",
     "@strapi/helper-plugin": "^4.6.0",
     "@strapi/icons": "^1.6.3",
+    "@strapi/strapi": "^4.16.2",
     "fluent-ffmpeg": "^2.1.2",
     "prop-types": "^15.7.2"
   },
@@ -45,7 +46,7 @@
     "npm": ">=6.0.0"
   },
   "scripts": {
-    "develop": "tsc -p tsconfig.server.json -w",
+    "dev": "tsc -p tsconfig.server.json -w",
     "build": "tsc -p tsconfig.server.json"
   },
   "license": "MIT"
